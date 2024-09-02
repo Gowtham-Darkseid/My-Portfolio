@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Template</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <div class="container">
+            <div class="logo">Gowtham S</div>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#work">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="cta-button">
+                <a href="#contact" class="btn">Get Started</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1 data-aos="fade-up">Hey! I'm Gowtham S</h1>
+                <p data-aos="fade-up" data-aos-delay="100">Passionate about tech, especially web development, machine learning, and Linux.</p>
+                <a href="#contact" class="btn" data-aos="fade-up" data-aos-delay="200">Contact Me</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <h2 data-aos="fade-right">Our Services</h2>
+            <p data-aos="fade-right" data-aos-delay="100">Our services range from initial design to deployment anywhere, anytime.</p>
+            <div class="service-items">
+                <div class="service-item" data-aos="fade-up" data-aos-delay="200">
+                    <img src="service1.jpg" alt="Service 1">
+                    <h3>Web Development</h3>
+                    <p>Custom websites with excellent UI/UX design.</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div class="service-item" data-aos="fade-up" data-aos-delay="300">
+                    <img src="service2.jpg" alt="Service 2">
+                    <h3>Cloud Hosting</h3>
+                    <p>Reliable cloud hosting solutions for businesses.</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div class="service-item" data-aos="fade-up" data-aos-delay="400">
+                    <img src="service3.jpg" alt="Service 3">
+                    <h3>Marketing</h3>
+                    <p>Comprehensive marketing strategies for all sizes of business.</p>
+                    <a href="#">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="work" class="portfolio">
+        <div class="container">
+            <h2 data-aos="fade-left">Latest Work</h2>
+            <div class="portfolio-items">
+                <div class="portfolio-item" data-aos="zoom-in">
+                    <img src="portfolio1.jpg" alt="Portfolio 1">
+                    <h3>Project Title</h3>
+                    <p>Project Description</p>
+                </div>
+                <div class="portfolio-item" data-aos="zoom-in" data-aos-delay="100">
+                    <img src="portfolio2.jpg" alt="Portfolio 2">
+                    <h3>Project Title</h3>
+                    <p>Project Description</p>
+                </div>
+                <div class="portfolio-item" data-aos="zoom-in" data-aos-delay="200">
+                    <img src="portfolio3.jpg" alt="Portfolio 3">
+                    <h3>Project Title</h3>
+                    <p>Project Description</p>
+                </div>
+                <div class="portfolio-item" data-aos="zoom-in" data-aos-delay="300">
+                    <img src="portfolio4.jpg" alt="Portfolio 4">
+                    <h3>Project Title</h3>
+                    <p>Project Description</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 data-aos="fade-right">Get Started</h2>
+            <p data-aos="fade-right" data-aos-delay="100">Let's discuss your project and make something awesome together!</p>
+            <div class="contact-form" data-aos="fade-up" data-aos-delay="200">
+                <form action="#">
+                    <input type="text" name="name" placeholder="Your Name">
+                    <input type="email" name="email" placeholder="Your Email">
+                    <textarea name="message" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn">Submit</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+</html>
